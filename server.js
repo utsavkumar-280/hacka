@@ -20,9 +20,9 @@ connectDB();
 app.use("/meet-details", meetDetails);
 
 //welcome message
-app.get("/", (req, res) => {
-	res.send("MayaMeetApp welcomes you");
-});
+// app.get("/", (req, res) => {
+// 	res.send("MayaMeetApp welcomes you");
+// });
 
 //serve static assets for production
 if (process.env.NODE_ENV === "production") {
