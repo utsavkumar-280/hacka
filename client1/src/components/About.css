@@ -1,0 +1,27 @@
+:root {
+	--navText: #f2f2f2;
+	--navBack: #133b5c;
+	--navPrimary: #1e5f74;
+
+	--backFill: #e5e5e5;
+	--mainBack: #ffffff;
+	--mainPrimary: #000000;
+	--delete: #ca2c2c;
+}
+body {
+	background-color: var(--backFill);
+}
+
+.aboutContainer > h1 {
+	font-size: 3.6rem;
+	font-weight: 400;
+	padding-bottom: 9.2rem;
+}
+
+.aboutContent {
+	background-color: var(--mainBack);
+	padding: 6.5rem;
+
+	box-shadow: 0px 4px 4px 0px #00000040;
+	font-size: 1.5rem;
+}

@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500&display=swap");
+
+:root {
+	--navText: #f2f2f2;
+	--navBack: #133b5c;
+	--navPrimary: #1e5f74;
+
+	--backFill: #e5e5e5;
+	--mainBack: #ffffff;
+	--mainPrimary: #000000;
+	--delete: #ca2c2c;
+}
+
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.app {
+	display: grid;
+	grid-template-columns: 15% 85%;
+	grid-template-rows: 100vh;
+}
+.navBar {
+	padding: 2.4rem 0rem;
+	background-color: var(--navPrimary);
+}
+.navHead {
+	font-size: 3rem;
+	color: var(--navText);
+	padding: 0rem 2rem 5rem 2rem;
+	display: grid;
+	grid-template-columns: 15% 85%;
+	align-items: center;
+}
+.navHead {
+	text-align: center;
+}
+
+.navBar > ul > li {
+	list-style: none;
+	text-decoration: none;
+	color: var(--navText);
+}
+
+.navBar > ul > li > a {
+	display: block;
+	font-size: 2rem;
+	padding: 2rem;
+	text-decoration: none;
+	color: var(--navText);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.navBar > ul > li > a:focus {
+	background-color: var(--navBack);
+}
+
+.navBar > ul > li > a > img {
+	padding-right: 1rem;
+}
+
+.mainContent {
+	padding: 7.7rem 5.9rem;
+}
