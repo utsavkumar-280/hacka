@@ -2,6 +2,9 @@
 MayaMeet app a meeting management system. Its keeps the record of your upcoming video call meetings.
 Its basically a todo type app, where you can add your upcoming meetings, search them by meeting organiser's name, and also delete them when you want to.
 
+![MayaMeetApp](https://user-images.githubusercontent.com/66728108/115178593-41699b00-a0ef-11eb-9fa1-0720bf72a48f.gif)
+
+
 
 
 I have implemented  the backend middelwares using ExpressJS and used Mongoose library to communicate with the MongoDB database hosted on Atlas.
